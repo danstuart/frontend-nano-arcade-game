@@ -1,0 +1,1 @@
+I left it last minute, but when push came to shove I used http://www.dirtymarkup.com/ for code scrubbing, colleagues for pointing me in the right direction, stackoverflow as always, and http://www.jslint.com/ as well.

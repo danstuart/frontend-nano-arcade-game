@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Classic Arcade Love - Pseudo Frogger</title>
+  <meta content="Arcade game project for Udacity Frontend Web Developer Nanodegree Project 3" name="description">
+  <meta content="HTML,CSS,JavaScript,Udacity,Frogger" name="keywords">
+  <meta content="Dan Stuart" name="author">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+
+<body>
+  <h2>Classic Arcade Love - Pseudo Frogger</h2>
+
+  <h4>Game Rules:</h4>
+
+  <p>Select a player | Press SPACEBAR to start | Use ARROW KEYS to navigate</p>
+
+  <p>Avoid the bugs/vehicles | Make it to the water to SCORE!</p>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4"></div>
+
+      <div class="col-md-4">
+        <div>
+          <h4>Select a character:</h4>
+        </div>
+
+        <div>
+          <select class="form-control" id="players" onchange="player.selectPlayer();">
+            <option value="boy">
+              boy
+            </option>
+
+            <option value="cat-girl">
+              cat girl
+            </option>
+
+            <option value="horn-girl">
+              horn girl
+            </option>
+
+            <option value="pink-girl">
+              pink girl
+            </option>
+
+            <option value="princess-girl">
+              princess girl
+            </option>
+          </select>
+        </div>
+      </div>
+
+      <div class="col-md-4"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3"></div>
+
+      <div class="col-md-3">
+        <div id="lives">
+          <h4>Lives:</h4>
+
+          <p>10</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div id="score">
+          <h4>Score:</h4>
+
+          <p>nada</p>
+        </div>
+      </div>
+
+      <div class="col-md-3"></div>
+    </div>
+  </div><script src="js/resources.js"></script> <script src="js/app.js"></script> <script src="js/engine.js"></script>
+</body>
+</html>
