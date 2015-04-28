@@ -1,6 +1,8 @@
 P3 frontend-nanodegree-arcade-game
 ==================================
 
+(hmm...who knew that === created formatting in the read me?!)
+
 Students should use this rubric: https://www.udacity.com/course/viewer#!/c-ud015/l-3072058665/m-3072588797 for self-checking their submission.
 
 Gameplay Goal: Reach the water without colliding with the bugs/vehicles/whatever they are.
